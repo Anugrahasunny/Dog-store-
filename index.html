@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+    <div class="hero">
+    </div>
+    <header class="img">
+    <h1>WELCOME TO OUR DOG STORE</h1>
+      <p> your one stop shop for all things dog care.</p> 
+    </div>
+    </header>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-categories">
+            <div class="category">
+                <h3>Dog Collars, Leashes & Harnesses</h3>
+                <p>Stylish and comfortable collars, leashes, and harnesses for your furry friend.</p>
+            </div>
+            <div class="category">
+                <h3>Vitamins & Supplements</h3>
+                <p>Boost your dog's health with our range of vitamin tablets and supplements.</p>
+            </div>
+            <div class="category">
+                <h3>Rain Coats</h3>
+                <p>Keep your dog dry with our cute and functional rain coats.</p>
+            </div>
+            <div class="category">
+                <h3>Toys</h3>
+                <p>Fun and engaging toys to keep your dog entertained for hours.</p>
+            </div>
+            <div class="category">
+                <h3>Beds</h3>
+                <p>Comfy beds for your dog to relax and sleep in.</p>
+            </div>
+            <div class="category">
+                <h3>Vegetable Dog Food</h3>
+                <p>Healthy vegetable-based dog food options for a balanced diet.</p>
+            </div>
+            <div class="category">
+                <h3>Dog Carriers</h3>
+                <p>Safe and comfortable carriers for traveling with your dog.</p>
+            </div>
+            <div class="category">
+                <h3>Grooming Products</h3>
+                <p>Shampoos, conditioners, and grooming tools to keep your dog looking their best.</p>
+            </div>
+            <div class="category">
+                <h3>Feeding Bowls</h3>
+                <p>Durable and stylish feeding bowls for every meal.</p>
+            </div>
+            <div class="category">
+                <h3>Skin & Coat Care</h3>
+                <p>Keep your dog's skin and coat healthy with our range of products.</p>
+            </div>
+            <div class="category">
+                <h3>Playing Tents</h3>
+                <p>Give your dog a space of their own with our fun play tents.</p>
+            </div>
+            <div class="category">
+                <h3>Accessories</h3>
+                <p>Collars, tags, and more to accessorize your dog in style.</p>
+            </div>
+        </div>
+    </section>
+  <!--VRTIM-->
+  <header>
+    <h1>Veterinary Doctor Consulting</h1>
+    <p>Your trusted veterinary service near you</p>
+</header>
+
+<div class="container">
+    <h2>Find Veterinary Clinics Near You</h2>
+    <button class="location-btn" onclick="getLocation()">Find My Location</button>
+    <div class="message" id="message"></div>
+    <div id="map" class="map"></div>
+</div>
+<!--<div class="container">
+    <header>
+      <h1>PetCare Tracker - Collar & Leash Care</h1>
+    </header>
+
+    <section id="petInfo">
+      <h2 class="size-heading"> DogCollar & Leash Care</h2>
+      <p>Keep track of your dog’s collar, leash, and harness maintenance to ensure safety and comfort for your furry friend!</p>
+    </section>
+
+    <section id="checklistSection">
+      <h3>Your Pet Care Checklist</h3>
+      <ul id="checklist">
+        <li><input type="checkbox" id="walkCompleted"> Take the dog for a walk</li>
+        <li><input type="checkbox" id="checkCollarFit"> Check the collar fit</li>
+        <li><input type="checkbox" id="inspectLeash"> Inspect the leash for wear and tear</li>
+        <li><input type="checkbox" id="groomDog"> Groom the dog</li>
+      </ul>
+    </section>
+
+    <section id="tipsSection">
+      <h3>Tips for Choosing the Right Collar & Leash</h3>
+      <p><strong>Collar:</strong> Choose based on your dog's breed size. A comfortable fit is important, so it shouldn't be too tight or too loose.</p>
+      <p><strong>Leash:</strong> Opt for a sturdy leash made of nylon or leather for durability. Retractable leashes are great for training.</p>
+      <p><strong>Harness:</strong> Great for small breeds and dogs that pull, as it evenly distributes pressure across the body.</p>
+    </section>
+
+    <section id="remindersSection">
+      <h3>Reminder</h3>
+      <button onclick="setReminder()">Set a Reminder to Walk Your Dog</button>
+      <p id="reminderMessage"></p>
+    </section>
+  </div>-->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We love pets and offer a wide selection of products to keep them healthy, happy, and stylish.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us!</p>
+        <form id="contact-form">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+ 
+    <footer>
+        <p>&copy; 2025 Pet Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgba(0, 0, 0, 0.973);
+}
+
+header {
+    background-color: light rgb(0, 0, 0);
+    color: #96aee2c7;
+    padding: 50px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #231a58;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+.hero {
+    background-color:black;
+    color:#bc97c486;
+    text-align:center;
+    padding:50px 0;
+}
+.size{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
+h1{
+    font-size: 69px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;/*PRODUCT H1*/
+}
+p{
+    font-size: 18px;
+}
+.product-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.size-heading{
+    font-size: 24px;
+}
+.category {
+    background-color: #eadaee;
+    padding: 20px;
+    border: 1px solid #312d2d;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: #363030;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8d1e1e;
+}
+
+form button {
+    background-color: #6e6769;
+    color: #ececec;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #857f7c;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        padding: 20px;
+    }
+    
+    .container {
+        margin-left: auto;
+        max-width: 900px;
+        margin: 0 auto;
+        margin-left: 37px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    header h1 {
+        color: #2c3e50;
+        margin-bottom: 23px;
+    }
+    
+    header p {
+        color: #7f8c8d;
+        font-size: 1.2em;
+    }
+    
+    section {
+        margin-bottom: 20px;
+    }
+    
+    #location {
+        padding: 10px;
+        font-size: 1em;
+        width: 80%;
+        margin-right: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 1em;
+    }
+    
+    button:hover {
+        background-color: #2980b9;
+    }
+    
+    #vets-list {
+        margin-top: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    li {
+        background-color: #ecf0f1;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+    
+    li h3 {
+        color: #34495e;
+        font-size: 24px;
+    }
+    
+    li p {
+        color: #7f8c8d;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+header {
+    background-color: #757e75;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 37px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.location-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.location-btn:hover {
+    background-color: #45a049;
+}
+.message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+.img{
+    background-image: url(/dog-eating-out-of-bowl.webp);
+    background-size: cover;
+    height: 100vh;
+}
