@@ -9,7 +9,7 @@
 - Member 3: Acza - MBCCET
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+[dog-store-six.vercel.app]
 
 ### Project Description
 This project is a website that integrates both a Dogstore and Veterinary Consultation services, providing pet owners with a one-stop solution to shop for high-quality dog products and access veterinary care remotely. The platform allows users to browse a wide range of dog food, grooming supplies, and accessories, as well as schedule virtual consultations with certified veterinarians for any health concerns regarding their pets.
