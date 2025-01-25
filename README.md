@@ -33,9 +33,10 @@ cd dogstore-vet-consultation
 ### Project Documentation
 For Software:
 # Screenshots (Add at least 3)
-![Screenshot 1](https://github.com/user-attachments/assets/screenshot1.jpg)
-![Screenshot 2](https://github.com/user-attachments/assets/screenshot2.jpg)
-![Screenshot 3](https://github.com/user-attachments/assets/screenshot3.jpg)
+![aa2](https://github.com/user-attachments/assets/eaca91bb-f811-4f61-9ac4-3a1d4ae2d57b)
+![ss3](https://github.com/user-attachments/assets/65a164e2-ba1c-46cd-aa8d-aac781d7c94c)
+![ss1](https://github.com/user-attachments/assets/7cd5cd45-2ee5-4fe4-aefb-183c12f35922)
+
 
 ### Project Demo
 # Video
